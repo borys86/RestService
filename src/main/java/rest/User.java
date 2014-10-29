@@ -21,6 +21,10 @@ public class User {
 		return id;
 	}
 
+	public void setId(String id) {
+		this.id = id;
+	}
+
 	@Column(name = "password", nullable = false)
 	@NotNull
 	@Size(max = 64)
@@ -28,6 +32,10 @@ public class User {
 
 	public String getPassword() {
 		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	// getters
