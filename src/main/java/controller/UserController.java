@@ -1,4 +1,4 @@
-package rest;
+package controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import rest.UserService;
 import doa.UserRepository;
 import domain.User;
 
