@@ -1,11 +1,10 @@
-package service;
+package org.citizeninn.rest.service;
 import javax.inject.Inject;
 
+import org.citizeninn.rest.doa.UserRepository;
+import org.citizeninn.rest.domain.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import doa.UserRepository;
-import domain.User;
 
 @Service
 public class UserServiceImpl implements UserService {

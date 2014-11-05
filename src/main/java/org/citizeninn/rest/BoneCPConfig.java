@@ -1,4 +1,4 @@
-package config;
+package org.citizeninn.rest;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Value;
