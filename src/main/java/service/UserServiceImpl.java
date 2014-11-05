@@ -1,4 +1,4 @@
-package rest;
+package service;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package rest;
+package config;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Value;
