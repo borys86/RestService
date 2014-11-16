@@ -1,4 +1,5 @@
 package org.citizeninn.rest.service;
+
 import javax.inject.Inject;
 
 import org.citizeninn.rest.doa.UserRepository;
@@ -20,6 +21,11 @@ public class UserServiceImpl implements UserService {
 	@Transactional
 	public User save(final User user) {
 		return repository.save(user);
+	}
+
+	@Override
+	public User getById(String id) {
+		return repository.getUserById(id);
 	}
 
 }
